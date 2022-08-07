@@ -40,11 +40,12 @@ cd
 cd ../home/kali/Desktop
 mkdir virusnet1
 cd virusnet1
-youtube-dl $URL
+youtube-dl --verbose $URL
 sleep 0.7
 echo -e $g "Your Video in Desktop please cd /home/kali/Desktop"
 sleep 5
  else
+ bash tube.sh
  1
 fi
 fi
@@ -68,11 +69,12 @@ cd
 cd /sdcard
 mkdir virusnet1
 cd virusnet1
-youtube-dl $URL
+youtube-dl --verbose $URL
 sleep 0.7
 echo -e $g "Your Video in sdcard please cd /sdcard"
 sleep 5
  else
+ bash tube.sh
  2
 fi
 fi
