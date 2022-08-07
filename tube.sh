@@ -34,7 +34,7 @@ echo -e $a "     \__|\__,_|_.__/ \___| "
 printf "\n"
 read -p '[+]ENTER YOU URL : ' URL
 content = 100
-if [ $content ];
+if [ $content -eq ];
 then
 cd 
 cd ../home/kali/Desktop
@@ -59,7 +59,7 @@ echo -e $a "     \__|\__,_|_.__/ \___| "
 printf "\n"
 read -p '[+]ENTER YOU URL : ' URL
 content = 100
-if [ $content ];
+if [ $content -eq ];
 then
 termux-setup-storage
 cd 
