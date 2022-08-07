@@ -40,6 +40,7 @@ cd
 cd ../home/kali/Desktop
 mkdir virusnet1
 cd virusnet1
+chmod 777 virusnet1
 youtube-dl --verbose $URL
 sleep 0.7
 echo -e $g "Your Video in Desktop please cd /home/kali/Desktop"
