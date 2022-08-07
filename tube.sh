@@ -43,10 +43,6 @@ cd virusnet1
 youtube-dl --verbose $URL
 sleep 0.7
 echo -e $g "Your Video in Desktop please cd /home/kali/Desktop"
-sleep 5
- else
- bash tube.sh
- 1
 fi
 fi
 #//////////////////TERMUX/////////////////////////////////#
@@ -72,10 +68,6 @@ cd virusnet1
 youtube-dl --verbose $URL
 sleep 0.7
 echo -e $g "Your Video in sdcard please cd /sdcard"
-sleep 5
- else
- bash tube.sh
- 2
 fi
 fi
 if [ $START = 3 ]
