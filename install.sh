@@ -36,7 +36,7 @@ if [ $SYSTEM = 1 ];
 then
 apt update && upgrade -y
 apt install python -y
-pip install youtube-dl
+apt install youtube-dl
 clear
 chmod 777 tube.sh
 ./tube.sh
@@ -46,7 +46,7 @@ then
 pkg update -y
 apt upgrade -y
 pkg install python -y
-pip install youtube-dl -y
+apt install youtube-dl -y
 clear
 chmod 777 tube.sh
 ./tube.sh
