@@ -39,7 +39,10 @@ apt install python -y
 apt install youtube-dl
 clear
 chmod 777 tube.sh
-./tube.sh
+cd 
+cd ../..
+mv tube /bin
+tube
 fi
 if [ $SYSTEM = 2 ];
 then
