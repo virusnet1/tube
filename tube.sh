@@ -7,17 +7,17 @@ f='\e[1;36m'
 g='\e[1;37m'
 clear
 echo
-echo -e $g "       //////////////////////////////////////////  "
-echo -e $g "      //////////////////////////////////////////  "
-echo -e $g "     //          WHAT ARE YOU USE            //  "
-echo -e $g "    //////////////////////////////////////////  "
-echo -e $g "   //////////////////////////////////////////  "
+echo -e $g '       //////////////////////////////////////////  '
+echo -e $g '      //////////////////////////////////////////  '
+echo -e $g '     //          WHAT ARE YOU USE            //  '
+echo -e $g '    //////////////////////////////////////////  '
+echo -e $g '   //////////////////////////////////////////  '
 printf "\n"
-echo -e $g "                      [1] KALI LINUX                           "
+echo -e $g '                      [1] KALI LINUX                           '
 echo
-echo -e $g "                      [2]   TERMUX                             "
+echo -e $g '                      [2]   TERMUX                             '
 echo
-echo -e $g "                      [3]    EXIT                              "
+echo -e $g '                      [3]    EXIT                              '
 printf "\n"
 echo -e $e
 read -p '[*]ENTER YOUR SYS FOR START>>> ' START
@@ -26,11 +26,11 @@ if [ $START = 1 ];
 then
 clear
 echo
-echo -e $a "     _         _           "
-echo -e $a "    | |_ _   _| |__   ___  "
-echo -e $a "    | __| | | | '_ \ / _ \ "
-echo -e $a "    | |_| |_| | |_) |  __/ "
-echo -e $a "     \__|\__,_|_.__/ \___| "
+echo -e $a '     _         _           '
+echo -e $a '    | |_ _   _| |__   ___  '
+echo -e $a '    | __| | | | '_ \ / _ \ '
+echo -e $a '    | |_| |_| | |_) |  __/ '
+echo -e $a '     \__|\__,_|_.__/ \___| '
 printf "\n"
 read -p '[+]ENTER YOU URL : ' URL
 content = 100
