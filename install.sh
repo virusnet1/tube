@@ -38,7 +38,9 @@ apt update && upgrade -y
 apt install python -y
 apt install youtube-dl
 clear
-mv tube /bin
+mv tube $HOME
+cd 
+mv tube ../bin
 chmod 777 tube.sh
 tube
 fi
