@@ -7,30 +7,30 @@ f='\e[1;36m'
 g='\e[1;37m'
 clear
 sleep 0.5
-echo  $a "//////////"
+echo -e $a "//////////"
 sleep 3
-echo  $a "///////////////////"
+echo -e $a "///////////////////"
 sleep 3
-echo  $a "////////////////////////////"
+echo -e $a "////////////////////////////"
 sleep 3
-echo  $a "//////////////////////////////////////"
+echo -e $a "//////////////////////////////////////"
 sleep 3
-echo  $a "////////////////////////////////////////////"
+echo -e $a "////////////////////////////////////////////"
 sleep 3
-echo  $a "///////////////////////////////////////////////////"
+echo -e $a "///////////////////////////////////////////////////"
 echo
-echo  $b "DONE..."
+echo -e $b "DONE..."
 sleep 3
-echo  $d "PLEASE WAIT"
+echo -e $d "PLEASE WAIT"
 sleep 3
 clear
-echo  $c '  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  WHAT IS YOUR SYS  //////////////////////  '
+echo -e $c '  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  WHAT IS YOUR SYS  //////////////////////  '
 printf "\n"
-echo  $f "                              [1] KALI LINUX                                                 "
+echo -e $f "                              [1] KALI LINUX                                                 "
 echo
-echo  $f "                              [2]   TERMUX                                                 "
+echo -e $f "                              [2]   TERMUX                                                 "
 echo
-echo  $f "                              [3]    EXIT                                                 "
+echo -e $f "                              [3]    EXIT                                                 "
 read -p '[+]ENTER YOUT SYSTEM : ' SYSTEM
 if [ $SYSTEM = 1 ];
 then
