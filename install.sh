@@ -51,6 +51,8 @@ apt upgrade -y
 pkg install python -y
 apt install youtube-dl -y
 clear
+mv tube $HOME
+cd 
 mv tube ../usr/bin
 chmod 777 tube
 fi
