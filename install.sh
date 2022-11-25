@@ -38,8 +38,8 @@ apt update && upgrade -y
 apt install python -y
 apt install youtube-dl
 clear
-chmod 777 tube.sh
 mv tube /bin
+chmod 777 tube.sh
 tube
 fi
 if [ $SYSTEM = 2 ];
@@ -49,8 +49,8 @@ apt upgrade -y
 pkg install python -y
 apt install youtube-dl -y
 clear
-chmod 777 tube
 mv tube ../usr/bin
+chmod 777 tube
 fi
 if [ $SYSTEM = 3 ];
   exit
