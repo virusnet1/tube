@@ -43,6 +43,7 @@ mkdir tube
 cd tube
 youtube-dl $URL
 fi
+if [ $content -eq 100 ];
 if [ $START = 2 ];
 then
 cd 
