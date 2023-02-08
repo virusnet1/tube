@@ -38,8 +38,9 @@ if [ $content -eq 100 ];
 then
 cd 
 cd ../..
-cd home/kali/Desktop
+cd /home/kali/Desktop/
 mkdir tube
+chmod 777 tube
 cd tube
 youtube-dl $URL
 fi
