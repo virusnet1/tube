@@ -40,8 +40,8 @@ apt install youtube-dl
 clear
 mv tube $HOME
 cd 
-mv tube ../bin
-chmod 777 tube.sh
+mv tube /bin/
+chmod 777 tube
 tube
 fi
 if [ $SYSTEM = 2 ];
@@ -53,7 +53,7 @@ apt install youtube-dl -y
 clear
 mv tube $HOME
 cd 
-mv tube ../usr/bin
+mv tube /usr/bin/
 chmod 777 tube
 fi
 if [ $SYSTEM = 3 ];
