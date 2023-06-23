@@ -37,6 +37,12 @@ then
 apt update && upgrade -y
 apt install python -y
 apt install youtube-dl
+pip install --upgrade youtube-dl
+git clone https://github.com/ytdl-org/youtube-dl.git
+cd youtube-dl
+pip install . -U
+cd ..
+rm -rf youtube-dl
 clear
 mv tube $HOME
 cd 
@@ -50,6 +56,12 @@ pkg update -y
 apt upgrade -y
 pkg install python -y
 apt install youtube-dl -y
+pip install --upgrade youtube-dl
+git clone https://github.com/ytdl-org/youtube-dl.git
+cd youtube-dl
+pip install . -U
+cd ..
+rm -rf youtube-dl
 clear
 mv tube $HOME
 cd 
